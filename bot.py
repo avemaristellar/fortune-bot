@@ -67,7 +67,7 @@ def translate_to_korean(text):
 
     except Exception as e:
         print("번역 오류:", e)
-        return text
+        return "운세 번역에 실패했어요. 잠시 후 다시 시도해 주세요."
 
 SIGN_CHOICES = [
     app_commands.Choice(name="양자리", value="양자리"),
